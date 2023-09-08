@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+.top-container{
+    background-color: #C2EDF2; 
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.vibe-sticker1{
+    height: 300px;
+    float: left;
+    left: 300px;
+}
+
+.vibe-sticker2{
+    height: 300px;
+    float: right;
+}
+
+.title{
+    margin-top: 200px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+.middle-container{
+    padding-top: 100px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.portrait-img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+hr{
+    border: dotted #9BE6C0 6px;
+    width: 4%;
+    border-bottom: none;
+    margin: 100px auto;
+}
+
+.hobbies-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+.skills-img{height: 150px;}
+
+.btn{
+    background: #C2EDF2;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+}
+
+.send-msg-par{
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.contact{
+    margin-bottom: 100px;
+}
+
+.more-det-container{
+    background-color: #9DFCAF;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    display: block;
+    
+}
+
+.references{
+    display: grid;
+    grid-template-rows: repeat(1, 100px);
+    grid-template-columns: repeat(3, 200px);
+    align-items: center;
+    justify-content: center;
+}
+
+h6{
+    padding: 20px 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px){
+
+    html, body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .vibe-sticker1{visibility: hidden;}
+
+    .top-container{
+        position: relative;
+        height: 400px;
+    }
+
+    .title{
+        position: relative;
+        bottom: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .more-det-container{
+        position: relative;
+        padding-top: 20px;
+    }
+
+    
+
+    .references{
+        position: relative;
+        bottom: 22px;
+        display: grid;
+        grid-template-rows: repeat(1, 25px);
+        grid-template-columns: repeat(3, 130px);
+        align-items: center;
+        justify-content: center;
+    }
+
+    .for-more-content{
+        position: relative;
+        bottom: 40px;
+    }
+
+}
